@@ -1,0 +1,16 @@
+#chat {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.own {
+    background-color: #ADD8E6;
+    align-self: flex-end;
+}
+.other {
+    background-color: #6495ED;
+    align-self: flex-start;
+}
